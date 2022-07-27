@@ -1,0 +1,12 @@
+#These are the git commands I know so far
+
+Initializing git in a folder   : git init 
+saving everything              : git add . 
+saving a specific file         : git add <insert_filename_here> 
+commiting a change to memory   : git commit describing the 
+describing the version         : git commit -m '<insert a short_description>'
+
+#When you delete sth or make a change to your file you save again and describe what you have done to the file
+
+look at previos saves and Hash : git log 
+to GO_BACK_IN_TIME             : git checkout <copy_hash_from_git_log>
