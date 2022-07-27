@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("../Generics/Fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Indie';
+    src: url("../Generics/Fonts/Indie_Flower/IndieFlower-Regular.ttf");
+}
+
+*{
+    font-family: 'Raleway';
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url('/images/Generics/images/SAKURA.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    border-bottom: 1px solid #888;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    font-size: large;
+    margin: 10px 5%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #888;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+h1{
+    font-family: 'Indie';
+    padding-top: 80px;
+    text-align: end;    
+}
+
+.parent{
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+    height: 150vh;/*to change the View Height*/
+}
+
+/* absolute positioning example */
+.child-one{
+    background-color: greenyellow;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+}
+
+/* fixed positioning example */
+.child-two{
+    background-color: orange;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.child-three{
+    background-color: rgb(253, 145, 163);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    width: 200px;
+}
